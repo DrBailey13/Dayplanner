@@ -127,5 +127,16 @@ var date = new Date();
 date = moment().format('LL');
 var date1 = moment().format("h A")
 console.log(date1)
+var FivePm = $("#input5")
+dateEl.text(date);
+
+
+if (date1 === "5 PM"){
+    FivePm.addClass("present")
+}
+
+else {
+    FivePm.addClass("future")
+}
 
 
