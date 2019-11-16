@@ -122,5 +122,10 @@ function DisplayEvent5() {
 DisplayEvent5();
 
 
+var dateEl = $("#currentDay")
+var date = new Date();
+date = moment().format('LL');
+var date1 = moment().format("h A")
+console.log(date1)
 
 
