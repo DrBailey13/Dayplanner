@@ -7,7 +7,7 @@ No installation process required.
 This Day Planner is for anyone who needs extra help keeping up with different tasks throughout the day. each hour will be color coded to reflect if the time slot is in the past, the present, or the future. This will change depending on the time of day.
 
 ## Functionality 
-beside each time an input box will be open for you to insert your task for that paticular time. beside the input box there will be a button with a save button icon for you to save your task for that time, so feel free to refresh the page when needed your task will be safe. as the time passes each time slot will change color to indicate whether the time is in the past, present or future.Enjoy!
+Beside each time an input box will be open for you to insert your task for that paticular time. beside the input box there will be a button with a save button icon for you to save your task for that time, so feel free to refresh the page when needed your task will be safe. as the time passes each time slot will change color to indicate whether the time is in the past, present or future.Enjoy!
 
 ## Links
 https://github.com/DrBailey13/Dayplanner
@@ -24,10 +24,10 @@ https://code.jquery.com/
 
 
 ## Screenshots
-<img src="">
-<img src="">
-<img src="">
-<img src="">
+<img src="Screen Shot 2019-11-15 at 8.35.34 PM.png">
+<img src="Screen Shot 2019-11-15 at 8.35.49 PM.png">
+<img src="Screen Shot 2019-11-15 at 8.36.10 PM.png">
+<img src="Screen Shot 2019-11-15 at 8.36.49 PM.png">
 <img src="">
 <img src="">
 <img src="">
