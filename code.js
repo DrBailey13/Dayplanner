@@ -2,9 +2,10 @@ $(function(){
 
     $(".saveBtn").click(function(){
         var userEvent = $("#input").val();
-        localStorage.setItem("getvalue",userEvent);
+        localStorage.setItem("getvalue",userEvent);  
         
     });
     
 });
+
 
