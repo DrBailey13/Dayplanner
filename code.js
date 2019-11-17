@@ -128,6 +128,14 @@ date = moment().format('LL');
 var date1 = moment().format("h A")
 console.log(date1)
 var FivePm = $("#input5")
+var FourPm = $("#input4")
+var ThreePm = $("#input3")
+var TwoPm = $("#input2")
+var OnePm = $("#input1")
+var Noon = $("#input12")
+var ElevenAm = $("#input11")
+var TenAm = $("#input10")
+var NineAm = $("#input9")
 dateEl.text(date);
 
 
@@ -140,3 +148,66 @@ else {
 }
 
 
+if (date1 === "4 PM"){
+    FourPm.addClass("present")
+}
+
+else {
+    FourPm.addClass("future")
+}
+
+if (date1 === "3 PM"){
+    ThreePm.addClass("present")
+}
+
+else {
+    ThreePm.addClass("future")
+}
+
+if (date1 === "2 PM"){
+    TwoPm.addClass("present")
+}
+
+else {
+    TwoPm.addClass("future")
+}
+
+if (date1 === "1 PM"){
+    OnePm.addClass("present")
+}
+
+else {
+    OnePm.addClass("future")
+}
+
+if (date1 === "12 PM"){
+    Noon.addClass("present")
+}
+
+else {
+    Noon.addClass("future")
+}
+
+if (date1 === "11 AM"){
+    ElevenAm.addClass("present")
+}
+
+else {
+    ElevenAm.addClass("future")
+}
+
+if (date1 === "10 AM"){
+    TenAm.addClass("present")
+}
+
+else {
+    TenAm.addClass("future")
+}
+
+if (date1 === "9 AM"){
+    NineAm.addClass("present")
+}
+
+else {
+    NineAm.addClass("future")
+}
