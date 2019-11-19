@@ -12,7 +12,7 @@ Beside each time an input box will be open for you to insert your task for that 
 ## Links
 https://github.com/DrBailey13/Dayplanner
 https://drbailey13.github.io/Dayplanner/
-https://momentjs.com/
+
 
 ## Credits
 https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
@@ -20,7 +20,7 @@ https://www.w3schools.com/
 My classmates and TA's were also a big help in this process.
 https://getbootstrap.com/docs/3.4/
 https://code.jquery.com/
-
+https://momentjs.com/
 
 
 
