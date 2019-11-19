@@ -142,6 +142,9 @@ dateEl.text(date);
 if (date1 === "5 PM"){
     FivePm.addClass("present")
 }
+else if 
+    (date1 > "5 PM"){
+    FivePm.addClass("past")}
 
 else {
     FivePm.addClass("future")
@@ -152,6 +155,10 @@ if (date1 === "4 PM"){
     FourPm.addClass("present")
 }
 
+else if 
+    (date1 > "4 PM"){
+    FourPm.addClass("past")}
+
 else {
     FourPm.addClass("future")
 }
@@ -159,6 +166,10 @@ else {
 if (date1 === "3 PM"){
     ThreePm.addClass("present")
 }
+
+else if 
+    (date1 > "3 PM"){
+    ThreePm.addClass("past")}
 
 else {
     ThreePm.addClass("future")
@@ -168,6 +179,10 @@ if (date1 === "2 PM"){
     TwoPm.addClass("present")
 }
 
+else if 
+    (date1 > "2 PM"){
+    TwoPm.addClass("past")}
+
 else {
     TwoPm.addClass("future")
 }
@@ -175,6 +190,10 @@ else {
 if (date1 === "1 PM"){
     OnePm.addClass("present")
 }
+
+else if 
+    (date1 > "1 PM"){
+    OnePm.addClass("past")}
 
 else {
     OnePm.addClass("future")
@@ -184,6 +203,10 @@ if (date1 === "12 PM"){
     Noon.addClass("present")
 }
 
+else if 
+    (date1 > "12 PM"){
+    Noon.addClass("past")}
+
 else {
     Noon.addClass("future")
 }
@@ -191,6 +214,10 @@ else {
 if (date1 === "11 AM"){
     ElevenAm.addClass("present")
 }
+
+else if 
+    (date1 > "11 AM"){
+    ElevenAm.addClass("past")}
 
 else {
     ElevenAm.addClass("future")
@@ -200,6 +227,10 @@ if (date1 === "10 AM"){
     TenAm.addClass("present")
 }
 
+else if 
+    (date1 > "10 AM"){
+    TenAm.addClass("past")}
+
 else {
     TenAm.addClass("future")
 }
@@ -207,6 +238,10 @@ else {
 if (date1 === "9 AM"){
     NineAm.addClass("present")
 }
+
+else if 
+    (date1 < "9 AM"){
+    NineAm.addClass("past")}
 
 else {
     NineAm.addClass("future")
